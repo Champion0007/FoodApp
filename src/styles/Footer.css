@@ -1,0 +1,25 @@
+.footer {
+  background-color: #063b19; /* Green color */
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-link {
+  color: white;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #f97316; /* Orange color */
+}

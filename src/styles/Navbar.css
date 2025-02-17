@@ -1,0 +1,82 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.dark {
+  background-color: #1f2937; /* Dark mode background */
+  color: white;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style-type: none; 
+  padding-left: 0;
+}
+
+.navbar-item {
+  list-style-type: none; 
+}
+
+.navbar-link {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #063b19;
+}
+
+.navbar-dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+/* Mobile Menu */
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+    
+  }
+
+  .navbar-menu {
+    display: none;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  .navbar-menu.open {
+    display: block;
+  }
+
+  .navbar.dark .navbar-menu {
+    background-color: #1f2937;
+  }
+}

@@ -1,0 +1,118 @@
+/* About Hero Section */
+.about-hero {
+  background-image: url("src/assets/top-view-assortment-delicious-raw-spices_23-2148882521.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.about-hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-hero-subtitle {
+  font-size: 1.25rem;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+/* Mission Section */
+.about-mission {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f3f4f6; /* Light gray */
+}
+
+.about-mission-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-mission-description {
+  font-size: 1rem;
+  color: #6b7280; /* Gray color */
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+/* Team Section */
+.about-team {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about-team-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.about-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.about-team-member {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-team-member-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.about-team-member-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.about-team-member-role {
+  font-size: 1rem;
+  color: #6b7280; /* Gray color */
+}
+
+/* Call-to-Action Section */
+.about-cta {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #063b19; /* Green color */
+  color: white;
+}
+
+.about-cta-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-cta-description {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.about-cta-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #f97316; /* Orange color */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about-cta-button:hover {
+  background-color: #ea580c; /* Darker orange */
+}

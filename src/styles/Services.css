@@ -1,0 +1,127 @@
+/* Services Hero Section */
+.services-hero {
+  background-image: url("src/assets/hamburger-delivery-3d-rendering_256339-889.jpg"); 
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem;
+  text-align: center;
+  color: white;
+  width: 95vw;
+}
+
+.services-hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.services-hero-subtitle {
+  font-size: 1.25rem;
+}
+
+/* Service Cards Section */
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 4rem 2rem;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.service-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.service-card-description {
+  font-size: 1rem;
+  color: #6b7280; /* Gray color */
+  padding: 0 1rem 1rem;
+}
+
+/* Additional Information Section */
+.services-info {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f3f4f6; /* Light gray */
+}
+
+.services-info-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.services-info-description {
+  font-size: 1rem;
+  color: #6b7280; /* Gray color */
+  margin: 0 auto 2rem;
+}
+
+.services-info-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.services-info-item {
+  font-size: 1rem;
+  color: #6b7280; /* Gray color */
+  margin-bottom: 1rem;
+}
+
+.services-info-item strong {
+  color: #1f2937; /* Dark gray */
+}
+
+/* Call-to-Action Section */
+.services-cta {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #16a34a; /* Green color */
+  color: white;
+}
+
+.services-cta-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.services-cta-description {
+  font-size: 1rem;
+  margin: 0 auto 2rem;
+}
+
+.services-cta-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #f97316; /* Orange color */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.services-cta-button:hover {
+  background-color: #ea580c; /* Darker orange */
+}
+
+@media (max-width: 768px) {
+  .services-hero{
+    width: 84vw;
+  }
+
+}

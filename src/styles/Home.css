@@ -1,0 +1,5 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f4f6; /* Light gray */
+}

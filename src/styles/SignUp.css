@@ -1,0 +1,116 @@
+/* SignUp Hero Section */
+.signup-hero {
+  background-image: url("src/assets/abstract-techno-background-with-connecting-lines_1048-5690.jpg");
+  width: 95vw;
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.signup-hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.signup-hero-subtitle {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* SignUp Form Container */
+.signup-form-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.signup-input {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db; /* Light gray border */
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.signup-input:focus {
+  outline: none;
+  border-color: #1e40af; /* Blue color */
+}
+
+.signup-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #012a10; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #063b19; 
+}
+
+/* Additional Links */
+.signup-links {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.signup-link {
+  color: #1e40af; /* Blue color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link:hover {
+  color: #f97316; /* Orange color */
+}
+
+.signup-text {
+  font-size: 0.875rem;
+  color: #6b7280; /* Gray color */
+}
+
+@media (max-width: 768px) {
+  .signup-hero {
+    width: 84vw;
+    padding: 4rem 2rem;
+  }
+  
+  .signup-hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .signup-hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .signup-form-container {
+    padding: 1rem;
+  }
+  
+  .signup-input {
+    padding: 0.5rem;
+  }
+  
+  .signup-button {
+    padding: 0.5rem 1rem;
+  }
+  
+  .signup-text {
+    font-size: 0.75rem;
+  }
+}

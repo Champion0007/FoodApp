@@ -1,0 +1,42 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("src/assets/food-background-food-menu-backround-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.hero-button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #063b19; /* Orange color */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #012a10;
+}
