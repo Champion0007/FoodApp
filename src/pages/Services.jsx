@@ -17,7 +17,7 @@ const Services = () => {
         {/* Delivery Service */}
         <div className="service-card">
           <img
-            src="src\assets\way-concept-illustration_114360-1191.avif" // Replace with your image path
+            src="\way-concept-illustration_114360-1191.avif"
             alt="Delivery Service"
             className="service-card-image"
           />
@@ -31,7 +31,7 @@ const Services = () => {
         {/* Dine-In Service */}
         <div className="service-card">
           <img
-            src="src\assets\waiter-wearing-face-mask-serving_23-2148592573.jpg" // Replace with your image path
+            src="\waiter-wearing-face-mask-serving_23-2148592573.jpg" 
             alt="Dine-In Service"
             className="service-card-image"
           />
@@ -45,7 +45,7 @@ const Services = () => {
         {/* Catering Service */}
         <div className="service-card">
           <img
-            src="src\assets\waiters-concept-illustration_114360-2782.jpg" // Replace with your image path
+            src="\waiters-concept-illustration_114360-2782.jpg" 
             alt="Catering Service"
             className="service-card-image"
           />

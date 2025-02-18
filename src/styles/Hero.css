@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   width: 100vw;
-  background-image: url("src/assets/food-background-food-menu-backround-photo.jpg");
+  background-image: url("/food-background-food-menu-backround-photo.jpg");
   background-size: cover;
   background-position: center;
   display: flex;

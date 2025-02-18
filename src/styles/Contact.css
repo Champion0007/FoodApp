@@ -1,6 +1,6 @@
 /* Contact Hero Section */
 .contact-hero {
-  background-image: url("src/assets/ordered-office-stuff-laptop_23-2148225485.jpg"); /* Replace with your image path */
+  background-image: url("/ordered-office-stuff-laptop_23-2148225485.jpg"); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   padding: 6rem 2rem;

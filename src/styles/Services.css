@@ -1,6 +1,6 @@
 /* Services Hero Section */
 .services-hero {
-  background-image: url("src/assets/hamburger-delivery-3d-rendering_256339-889.jpg"); 
+  background-image: url("/hamburger-delivery-3d-rendering_256339-889.jpg"); 
   background-size: cover;
   background-position: center;
   padding: 6rem 2rem;
@@ -90,7 +90,7 @@
 .services-cta {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #16a34a; /* Green color */
+  background-color: #063b19; /* Green color */
   color: white;
 }
 

@@ -2,9 +2,9 @@ import "../styles/Menu.css";
 
 const Menu = () => {
   const dishes = [
-    { id: 1, name: "Margherita Pizza", description: "Classic pizza with fresh mozzarella, tomatoes, and basil.", price: "$18.99", image: "src/assets/Margherita-pizza-2021-3-e1614881538289.jpg" },
-    { id: 2, name: "Spaghetti Carbonara", description: "Creamy pasta with pancetta, eggs, and parmesan cheese.", price: "$14.99", image: "src/assets/Quick-And-Easy-Spaghetti-With-Blistered-Cherry-Tomato-Sauce3.jpg" },
-    { id: 3, name: "Grilled Salmon", description: "Freshly grilled salmon with a side of seasonal vegetables.", price: "$18.99", image: "src/assets/pcc-rosemary-grilled-salmon-flo.jpg" },
+    { id: 1, name: "Margherita Pizza", description: "Classic pizza with fresh mozzarella, tomatoes, and basil.", price: "$18.99", image: "/Margherita-pizza-2021-3-e1614881538289.jpg" },
+    { id: 2, name: "Spaghetti Carbonara", description: "Creamy pasta with pancetta, eggs, and parmesan cheese.", price: "$14.99", image: "/Quick-And-Easy-Spaghetti-With-Blistered-Cherry-Tomato-Sauce3.jpg" },
+    { id: 3, name: "Grilled Salmon", description: "Freshly grilled salmon with a side of seasonal vegetables.", price: "$18.99", image: "/pcc-rosemary-grilled-salmon-flo.jpg" },
   ];
 
   return (

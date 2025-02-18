@@ -29,7 +29,7 @@ const About = () => {
           {/* Team Member 1 */}
           <div className="about-team-member">
             <img
-              src="src/assets/portrait-pretty-girl-with-bun-denim-jacket-white-t-shirt-with-gentle-smile-pink_176532-13857.jpg" // Replace with your image path
+              src="/portrait-pretty-girl-with-bun-denim-jacket-white-t-shirt-with-gentle-smile-pink_176532-13857.jpg" // Replace with your image path
               alt="Team Member 1"
               className="about-team-member-image"
             />
@@ -40,7 +40,7 @@ const About = () => {
           {/* Team Member 2 */}
           <div className="about-team-member">
             <img
-              src="src\assets\chef-working-together-professional-kitchen_23-2149728025.jpg" // Replace with your image path
+              src="\chef-working-together-professional-kitchen_23-2149728025.jpg" // Replace with your image path
               alt="Team Member 2"
               className="about-team-member-image"
             />
@@ -51,7 +51,7 @@ const About = () => {
           {/* Team Member 3 */}
           <div className="about-team-member">
             <img
-              src="src\assets\close-up-portrait-nice-cute-adorable-smiling-charming-cheerful-girl-pointing-with-her-index-finger_176532-7923.avif" // Replace with your image path
+              src="\close-up-portrait-nice-cute-adorable-smiling-charming-cheerful-girl-pointing-with-her-index-finger_176532-7923.avif" // Replace with your image path
               alt="Team Member 3"
               className="about-team-member-image"
             />
